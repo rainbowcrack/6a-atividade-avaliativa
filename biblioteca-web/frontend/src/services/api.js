@@ -12,6 +12,13 @@ export const autorService = {
   deletar: (id) => api.delete(`/autores/${id}`),
 };
 
-// SERVICES
+export const livroService = {
+  listar: () => api.get('/livros'),
+  buscar: (id) => api.get(`/livros/${id}`),
+  criar: (livro) => api.post('/livros', livro),
+  atualizar: (id, livro) => api.put(`/livros/${id}`, livro),
+  deletar: (id) => api.delete(`/livros/${id}`),
+  listarPorAutor: (autorId) => api.get(`/livros/autor/${autorId}`),
+};
 
 export default api;

@@ -93,7 +93,7 @@ npm test -- --watchAll=false --passWithNoTests
 
 | Integrante | Responsabilidade | Branch |
 |---|---|---|
-| Aluno(a): Izabel Oliveira da Paz Chaves – DEV 1 | CRUD de Autores (model, repository, controller, teste, AutorList/AutorForm) | `feature/autores` |
-
+| Aluno(a) 1 – DEV 1 (Izabel Chaves)| CRUD de Autores (model, repository, controller, teste, AutorList/AutorForm) | `feature/autores` |
+| Aluno(a) 2 – DEV 2 (Izabel Chaves) | CRUD de Livros (model, repository, controller, teste, LivroList/LivroForm) | `feature/livros` |
 
 Arquivos comuns (api.js, App.js, docker-compose.yml, CI, README) divididos entre os dois. Cada um revisa o Pull Request do outro.
